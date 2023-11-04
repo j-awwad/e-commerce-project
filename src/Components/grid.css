@@ -1,0 +1,24 @@
+body {
+  display: flex;
+}
+
+.containerr {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(29, 194, 169);
+  display: grid;
+  /* grid-template-columns: 200px 200px 200px; */
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  grid-auto-rows: 1fr;
+}
+.containerr div {
+  background-color: blueviolet;
+}
+
+.items-1 {
+  grid-column: 1 / -1;
+}
+.items-2 {
+}
